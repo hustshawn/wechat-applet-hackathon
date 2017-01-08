@@ -1,0 +1,12 @@
+<view class="container">
+    <view class="title">{{eventTitle}}</view>
+    <view class="separator"></view>
+    <view class="timetable">
+    <block wx:key="events" wx:for="{{eventArray}}">
+        <view class="row">
+            <view class="time">{{item.timeText}}</view>
+            <view class="detail">{{item.detail}}</view>
+        </view>
+    </block>
+    </view>
+</view>

@@ -5,7 +5,7 @@
     <text class="userinfo-nickname">{{userInfo.nickName}}</text>
   </view>
   <view class="button-container">
-    <button bindtap="gotoRundown">Rundown</button>
+    <button type="primary" bindtap="gotoRundown">Rundown</button>
     <button bindtap="gotoQnA">Q & A</button>
   </view>
   <view class="usermotto">
