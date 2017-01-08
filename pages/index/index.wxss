@@ -19,3 +19,12 @@
 .usermotto {
   margin-top: 200px;
 }
+
+.button-container {
+  align-self: stretch;
+  margin: 10px 15px 10px 15px;
+}
+
+.button-container button {
+  margin-top: 10px;
+}

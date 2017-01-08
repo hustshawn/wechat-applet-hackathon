@@ -12,6 +12,16 @@ Page({
       url: '../logs/logs'
     })
   },
+  gotoRundown: function() {
+    wx.navigateTo({
+      url: '../rundown/rundown',
+    })
+  },
+  gotoQnA: function() {
+    wx.navigateTo({
+      url: '../qna/qna',
+    })
+  },
   onLoad: function () {
     console.log('onLoad')
     var that = this
