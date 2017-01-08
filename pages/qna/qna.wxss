@@ -1,8 +1,39 @@
 /* pages/qna/qna.wxss */
-.input-container{
-    border: solid 1px lightgrey;
+.container {
+    font-family: 'SF UI Display';
+}
+
+.title {
+    font-weight: 600;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    right: 20px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #DDD;
+}
+
+.main {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    bottom: 40px;
+    padding: 20px 20px 0 20px;
+}
+
+.input-container {
+    height: 40px;
+    border-top: solid 1px lightgrey;
+    background: #F2F2F2;
     position: absolute;
     bottom: 0;
     width: 100%;
-    margin:2px;
+}
+
+.input {
+    margin: 0 20px 0 20px;
+    height: 40px;
+    line-height: 40px;
 }

@@ -1,4 +1,7 @@
 /**index.wxss**/
+.container {
+    font-family: 'SF UI Display';
+}
 .userinfo {
   display: flex;
   flex-direction: column;

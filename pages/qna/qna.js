@@ -15,5 +15,11 @@ Page({
       msgs: newmsgs,
       curmsg: ''
     });
+    document.getElementById('input').value = '';
+  },
+  onLoad: function() {
+      wx.setNavigationBarTitle({
+          title: 'Q & A'
+      })
   }
 })
