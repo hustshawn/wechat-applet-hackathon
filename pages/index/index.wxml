@@ -1,19 +1,6 @@
 <!--index.wxml-->
+<image class="bg" src="../images/bg.png" />
 <view class="container">
-  <view  bindtap="bindViewTap" class="userinfo">
-    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-  </view>
-  <view class="button-container">
-    <image src=""></image>
-    <view class='btn-group'>
-      <button type="primary" bindtap="gotoRundown">Rundown</button>
-      <button bindtap="gotoQnA">Q & A</button>
-      <button type="primary" bindtap="gotoRundown">Rundown</button>
-      <button bindtap="gotoQnA">Q & A</button>
-    </view>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
+      <view class="rundown" bindtap="gotoRundown">  </view>
+      <view class="qna" bindtap="gotoQnA">  </view>
 </view>
