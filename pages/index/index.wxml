@@ -5,8 +5,13 @@
     <text class="userinfo-nickname">{{userInfo.nickName}}</text>
   </view>
   <view class="button-container">
-    <button type="primary" bindtap="gotoRundown">Rundown</button>
-    <button bindtap="gotoQnA">Q & A</button>
+    <image src=""></image>
+    <view class='btn-group'>
+      <button type="primary" bindtap="gotoRundown">Rundown</button>
+      <button bindtap="gotoQnA">Q & A</button>
+      <button type="primary" bindtap="gotoRundown">Rundown</button>
+      <button bindtap="gotoQnA">Q & A</button>
+    </view>
   </view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
