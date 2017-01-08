@@ -1,1 +1,35 @@
-/* pages/rundown/rundown.wxss */
+.container {
+    font-family: 'SF UI Display';
+    font-size: 17px;
+}
+
+.title {
+    font-family: 'SF UI Display';
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.separator {
+    height: 3px;
+    width: 30px;
+    background: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.timetable {
+    padding: 0 20px 0 20px;
+}
+
+.row {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.time {
+    float: left;
+}
+
+.detail {
+    margin-left: 130px;
+}
